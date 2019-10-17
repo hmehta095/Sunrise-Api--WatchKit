@@ -51,7 +51,6 @@ class InterfaceController: WKInterfaceController {
             print("Sunrise: \(sunrise) ")
             print("Sunset: \(sunset) ")
             
-//            self.resultLabel.set = "Sunrise: \(sunrise) \n Sunset: \(sunset)"
             self.resultLabel.setText("Sunrise: \(sunrise) \n Sunset: \(sunset)")
             
         }
