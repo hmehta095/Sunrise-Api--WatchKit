@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BAB218BFFBB162C0E5175BE /* Pods_Sunrise_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA13C0B173ABC3ADE25FB84 /* Pods_Sunrise_WatchKit_App.framework */; };
+		924ADF8D49415422931370F5 /* Pods_Sunrise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0602604E9AAFE88F97B817 /* Pods_Sunrise.framework */; };
+		9B5F2EC0235766D3004338F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5F2EBF235766D3004338F3 /* AppDelegate.swift */; };
+		9B5F2EC2235766D3004338F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5F2EC1235766D3004338F3 /* ViewController.swift */; };
+		9B5F2EC5235766D3004338F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5F2EC3235766D3004338F3 /* Main.storyboard */; };
+		9B5F2EC7235766D4004338F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5F2EC6235766D4004338F3 /* Assets.xcassets */; };
+		9B5F2ECA235766D4004338F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5F2EC8235766D4004338F3 /* LaunchScreen.storyboard */; };
+		9B5F2ECF235766D4004338F3 /* Sunrise WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9B5F2ECE235766D4004338F3 /* Sunrise WatchKit App.app */; };
+		9B5F2ED5235766D4004338F3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5F2ED3235766D4004338F3 /* Interface.storyboard */; };
+		9B5F2ED7235766D5004338F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5F2ED6235766D5004338F3 /* Assets.xcassets */; };
+		9B5F2EDE235766D6004338F3 /* Sunrise WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9B5F2EDD235766D6004338F3 /* Sunrise WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9B5F2EE3235766D6004338F3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5F2EE2235766D6004338F3 /* InterfaceController.swift */; };
+		9B5F2EE5235766D6004338F3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5F2EE4235766D6004338F3 /* ExtensionDelegate.swift */; };
+		9B5F2EE7235766D7004338F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5F2EE6235766D7004338F3 /* Assets.xcassets */; };
+		AB66B7A25EBEB113B7FD37E3 /* Pods_Sunrise_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8EC0A069BEFAC6DA5B4F8C /* Pods_Sunrise_WatchKit_Extension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B5F2ED0235766D4004338F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B5F2EB4235766D3004338F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5F2ECD235766D4004338F3;
+			remoteInfo = "Sunrise WatchKit App";
+		};
+		9B5F2EDF235766D6004338F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B5F2EB4235766D3004338F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5F2EDC235766D6004338F3;
+			remoteInfo = "Sunrise WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B5F2EEE235766D7004338F3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9B5F2EDE235766D6004338F3 /* Sunrise WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5F2EF2235766D7004338F3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9B5F2ECF235766D4004338F3 /* Sunrise WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0912391803C1DB0A43955C57 /* Pods-Sunrise WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunrise WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-Sunrise WatchKit App/Pods-Sunrise WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		2D0602604E9AAFE88F97B817 /* Pods_Sunrise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunrise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F85DDB724455EFC04C17BA /* Pods-Sunrise WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunrise WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-Sunrise WatchKit Extension/Pods-Sunrise WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		32DF7CAED30056C4288691B8 /* Pods-Sunrise WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunrise WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-Sunrise WatchKit Extension/Pods-Sunrise WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		3AA13C0B173ABC3ADE25FB84 /* Pods_Sunrise_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunrise_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B09BFB486681EA0DDF9269A /* Pods-Sunrise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunrise.release.xcconfig"; path = "Target Support Files/Pods-Sunrise/Pods-Sunrise.release.xcconfig"; sourceTree = "<group>"; };
+		6B8EC0A069BEFAC6DA5B4F8C /* Pods_Sunrise_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunrise_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5F2EBC235766D3004338F3 /* Sunrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5F2EBF235766D3004338F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B5F2EC1235766D3004338F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B5F2EC4235766D3004338F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B5F2EC6235766D4004338F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B5F2EC9235766D4004338F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B5F2ECB235766D4004338F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5F2ECE235766D4004338F3 /* Sunrise WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sunrise WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5F2ED4235766D4004338F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9B5F2ED6235766D5004338F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B5F2ED8235766D5004338F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5F2EDD235766D6004338F3 /* Sunrise WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sunrise WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5F2EE2235766D6004338F3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		9B5F2EE4235766D6004338F3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		9B5F2EE6235766D7004338F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B5F2EE8235766D7004338F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7CB7EA0BED76EC01B63505 /* Pods-Sunrise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunrise.debug.xcconfig"; path = "Target Support Files/Pods-Sunrise/Pods-Sunrise.debug.xcconfig"; sourceTree = "<group>"; };
+		F1E3DBDA9C446B1A42C38059 /* Pods-Sunrise WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunrise WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-Sunrise WatchKit App/Pods-Sunrise WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87B423CEC0E75BC307800F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAB218BFFBB162C0E5175BE /* Pods_Sunrise_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5F2EB9235766D3004338F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924ADF8D49415422931370F5 /* Pods_Sunrise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5F2EDA235766D6004338F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB66B7A25EBEB113B7FD37E3 /* Pods_Sunrise_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B5F2EB3235766D3004338F3 = {
+			isa = PBXGroup;
+			children = (
+				9B5F2EBE235766D3004338F3 /* Sunrise */,
+				9B5F2ED2235766D4004338F3 /* Sunrise WatchKit App */,
+				9B5F2EE1235766D6004338F3 /* Sunrise WatchKit Extension */,
+				9B5F2EBD235766D3004338F3 /* Products */,
+				B03B6920FA0BC3293F51EC67 /* Pods */,
+				B30CD5492205F5DA5A26A81A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B5F2EBD235766D3004338F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B5F2EBC235766D3004338F3 /* Sunrise.app */,
+				9B5F2ECE235766D4004338F3 /* Sunrise WatchKit App.app */,
+				9B5F2EDD235766D6004338F3 /* Sunrise WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B5F2EBE235766D3004338F3 /* Sunrise */ = {
+			isa = PBXGroup;
+			children = (
+				9B5F2EBF235766D3004338F3 /* AppDelegate.swift */,
+				9B5F2EC1235766D3004338F3 /* ViewController.swift */,
+				9B5F2EC3235766D3004338F3 /* Main.storyboard */,
+				9B5F2EC6235766D4004338F3 /* Assets.xcassets */,
+				9B5F2EC8235766D4004338F3 /* LaunchScreen.storyboard */,
+				9B5F2ECB235766D4004338F3 /* Info.plist */,
+			);
+			path = Sunrise;
+			sourceTree = "<group>";
+		};
+		9B5F2ED2235766D4004338F3 /* Sunrise WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9B5F2ED3235766D4004338F3 /* Interface.storyboard */,
+				9B5F2ED6235766D5004338F3 /* Assets.xcassets */,
+				9B5F2ED8235766D5004338F3 /* Info.plist */,
+			);
+			path = "Sunrise WatchKit App";
+			sourceTree = "<group>";
+		};
+		9B5F2EE1235766D6004338F3 /* Sunrise WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9B5F2EE2235766D6004338F3 /* InterfaceController.swift */,
+				9B5F2EE4235766D6004338F3 /* ExtensionDelegate.swift */,
+				9B5F2EE6235766D7004338F3 /* Assets.xcassets */,
+				9B5F2EE8235766D7004338F3 /* Info.plist */,
+			);
+			path = "Sunrise WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B03B6920FA0BC3293F51EC67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE7CB7EA0BED76EC01B63505 /* Pods-Sunrise.debug.xcconfig */,
+				4B09BFB486681EA0DDF9269A /* Pods-Sunrise.release.xcconfig */,
+				F1E3DBDA9C446B1A42C38059 /* Pods-Sunrise WatchKit App.debug.xcconfig */,
+				0912391803C1DB0A43955C57 /* Pods-Sunrise WatchKit App.release.xcconfig */,
+				31F85DDB724455EFC04C17BA /* Pods-Sunrise WatchKit Extension.debug.xcconfig */,
+				32DF7CAED30056C4288691B8 /* Pods-Sunrise WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B30CD5492205F5DA5A26A81A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D0602604E9AAFE88F97B817 /* Pods_Sunrise.framework */,
+				3AA13C0B173ABC3ADE25FB84 /* Pods_Sunrise_WatchKit_App.framework */,
+				6B8EC0A069BEFAC6DA5B4F8C /* Pods_Sunrise_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B5F2EBB235766D3004338F3 /* Sunrise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5F2EF3235766D7004338F3 /* Build configuration list for PBXNativeTarget "Sunrise" */;
+			buildPhases = (
+				95FCF2A84E3ECB93979A6642 /* [CP] Check Pods Manifest.lock */,
+				9B5F2EB8235766D3004338F3 /* Sources */,
+				9B5F2EB9235766D3004338F3 /* Frameworks */,
+				9B5F2EBA235766D3004338F3 /* Resources */,
+				9B5F2EF2235766D7004338F3 /* Embed Watch Content */,
+				3BC4830EA8C49D781EF7BCD4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B5F2ED1235766D4004338F3 /* PBXTargetDependency */,
+			);
+			name = Sunrise;
+			productName = Sunrise;
+			productReference = 9B5F2EBC235766D3004338F3 /* Sunrise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B5F2ECD235766D4004338F3 /* Sunrise WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5F2EEF235766D7004338F3 /* Build configuration list for PBXNativeTarget "Sunrise WatchKit App" */;
+			buildPhases = (
+				5EF37FAE1E11C6A2EB69AC3E /* [CP] Check Pods Manifest.lock */,
+				9B5F2ECC235766D4004338F3 /* Resources */,
+				9B5F2EEE235766D7004338F3 /* Embed App Extensions */,
+				87B423CEC0E75BC307800F21 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B5F2EE0235766D6004338F3 /* PBXTargetDependency */,
+			);
+			name = "Sunrise WatchKit App";
+			productName = "Sunrise WatchKit App";
+			productReference = 9B5F2ECE235766D4004338F3 /* Sunrise WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9B5F2EDC235766D6004338F3 /* Sunrise WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5F2EEB235766D7004338F3 /* Build configuration list for PBXNativeTarget "Sunrise WatchKit Extension" */;
+			buildPhases = (
+				9CE47C40606A0A65A855B4D5 /* [CP] Check Pods Manifest.lock */,
+				9B5F2ED9235766D6004338F3 /* Sources */,
+				9B5F2EDA235766D6004338F3 /* Frameworks */,
+				9B5F2EDB235766D6004338F3 /* Resources */,
+				54908B16C0116CBE608DAD3F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sunrise WatchKit Extension";
+			productName = "Sunrise WatchKit Extension";
+			productReference = 9B5F2EDD235766D6004338F3 /* Sunrise WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B5F2EB4235766D3004338F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = MacStudent;
+				TargetAttributes = {
+					9B5F2EBB235766D3004338F3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					9B5F2ECD235766D4004338F3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					9B5F2EDC235766D6004338F3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 9B5F2EB7235766D3004338F3 /* Build configuration list for PBXProject "Sunrise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B5F2EB3235766D3004338F3;
+			productRefGroup = 9B5F2EBD235766D3004338F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B5F2EBB235766D3004338F3 /* Sunrise */,
+				9B5F2ECD235766D4004338F3 /* Sunrise WatchKit App */,
+				9B5F2EDC235766D6004338F3 /* Sunrise WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B5F2EBA235766D3004338F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5F2ECA235766D4004338F3 /* LaunchScreen.storyboard in Resources */,
+				9B5F2EC7235766D4004338F3 /* Assets.xcassets in Resources */,
+				9B5F2EC5235766D3004338F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5F2ECC235766D4004338F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5F2ED7235766D5004338F3 /* Assets.xcassets in Resources */,
+				9B5F2ED5235766D4004338F3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5F2EDB235766D6004338F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5F2EE7235766D7004338F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BC4830EA8C49D781EF7BCD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sunrise/Pods-Sunrise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sunrise/Pods-Sunrise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sunrise/Pods-Sunrise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54908B16C0116CBE608DAD3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sunrise WatchKit Extension/Pods-Sunrise WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sunrise WatchKit Extension/Pods-Sunrise WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sunrise WatchKit Extension/Pods-Sunrise WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EF37FAE1E11C6A2EB69AC3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sunrise WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95FCF2A84E3ECB93979A6642 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sunrise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE47C40606A0A65A855B4D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sunrise WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B5F2EB8235766D3004338F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5F2EC2235766D3004338F3 /* ViewController.swift in Sources */,
+				9B5F2EC0235766D3004338F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5F2ED9235766D6004338F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5F2EE5235766D6004338F3 /* ExtensionDelegate.swift in Sources */,
+				9B5F2EE3235766D6004338F3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B5F2ED1235766D4004338F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B5F2ECD235766D4004338F3 /* Sunrise WatchKit App */;
+			targetProxy = 9B5F2ED0235766D4004338F3 /* PBXContainerItemProxy */;
+		};
+		9B5F2EE0235766D6004338F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B5F2EDC235766D6004338F3 /* Sunrise WatchKit Extension */;
+			targetProxy = 9B5F2EDF235766D6004338F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B5F2EC3235766D3004338F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5F2EC4235766D3004338F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B5F2EC8235766D4004338F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5F2EC9235766D4004338F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9B5F2ED3235766D4004338F3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5F2ED4235766D4004338F3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B5F2EE9235766D7004338F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B5F2EEA235766D7004338F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B5F2EEC235766D7004338F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F85DDB724455EFC04C17BA /* Pods-Sunrise WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sunrise WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.Sunrise.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		9B5F2EED235766D7004338F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DF7CAED30056C4288691B8 /* Pods-Sunrise WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sunrise WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.Sunrise.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		9B5F2EF0235766D7004338F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E3DBDA9C446B1A42C38059 /* Pods-Sunrise WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Sunrise_WatchKit_Extension;
+				INFOPLIST_FILE = "Sunrise WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.Sunrise.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		9B5F2EF1235766D7004338F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0912391803C1DB0A43955C57 /* Pods-Sunrise WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Sunrise_WatchKit_Extension;
+				INFOPLIST_FILE = "Sunrise WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.Sunrise.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		9B5F2EF4235766D7004338F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7CB7EA0BED76EC01B63505 /* Pods-Sunrise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sunrise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.Sunrise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B5F2EF5235766D7004338F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B09BFB486681EA0DDF9269A /* Pods-Sunrise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sunrise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.Sunrise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B5F2EB7235766D3004338F3 /* Build configuration list for PBXProject "Sunrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5F2EE9235766D7004338F3 /* Debug */,
+				9B5F2EEA235766D7004338F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5F2EEB235766D7004338F3 /* Build configuration list for PBXNativeTarget "Sunrise WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5F2EEC235766D7004338F3 /* Debug */,
+				9B5F2EED235766D7004338F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5F2EEF235766D7004338F3 /* Build configuration list for PBXNativeTarget "Sunrise WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5F2EF0235766D7004338F3 /* Debug */,
+				9B5F2EF1235766D7004338F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5F2EF3235766D7004338F3 /* Build configuration list for PBXNativeTarget "Sunrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5F2EF4235766D7004338F3 /* Debug */,
+				9B5F2EF5235766D7004338F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B5F2EB4235766D3004338F3 /* Project object */;
+}
